@@ -1,0 +1,255 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #33A1DE;
+}
+
+/*
+This is the header section
+*/
+
+#header {
+	width: 100%;
+	font-family: tahoma;
+	font-weight: 500;
+	font-size: 12px;
+	height: 35px;
+	background-color: #191970;
+}
+
+#header a {
+	padding: 0 7px 5px 7px;
+	text-decoration: none;
+	color: white;
+}
+
+#header a:hover {
+	text-decoration: underline;
+}
+
+#header .active {
+	background-color: #33A1DE;
+}
+
+#header ul {
+	padding: 8px 0 0 20px;
+	font-size: 20px;	
+}
+
+#header ul li {
+	display: inline;
+	padding: 0 15px 0 0;
+}
+
+/*
+Content, the main area
+*/
+
+#content {
+	margin: 10px 0 0 20px;
+	float: left;
+	width: 70%;
+	min-height: 800px;
+	background-color: white;
+}
+
+#content-header {
+	background-color: #9FB6CD;
+	height: 35px;
+	font-family: tahoma;
+	padding: 12px 0 0 8px;
+}
+
+	#content-header h2 {
+		font-size: 16px;
+	}
+
+#main {
+	margin: 20px 0 0 25px;
+}
+
+#upcoming {
+	margin: 20px 0 0 25px;
+}
+
+.spaceTable {
+	margin: 10px;
+}
+
+/*
+FORMS
+*/
+
+fieldset {
+	padding: .5em .5em .5em 1em;
+	 border:1px solid #33A1DE;
+}
+
+legend {
+	border: 1px solid #33A1DE;
+	padding: 2px;
+}
+
+form {
+	width: 500px;
+}
+
+.row input, select {
+	padding: 3px 2px;
+}
+
+.row {
+	clear: both;
+	padding: 5px 0 0 0;
+}
+
+.row span.label {
+	padding: 3.5px 0 0 0;
+    float: left;
+    width: 150px;
+    text-align: right;
+	font-family: Tahoma;
+}
+
+.row span.formw {
+	padding: 2.5px 0 2.5px 0;
+    float: right;
+    width: 340px;
+    text-align: left;
+} 
+
+.error {
+	border: 2px solid red;
+}
+
+input + label.error {
+	color: red;
+	font-size: 12px;
+	padding: 0 0 0 5px;
+	border: none;
+}
+
+select + label.error {
+	color: red;
+	font-size: 12px;
+	padding: 0 0 0 5px;
+	border: none;
+}
+
+/*
+Quick-Facts, The sidebar
+*/
+#quick-facts-container {
+	float: left;
+	width: 25%;
+	min-height: 800px;
+	margin: 10px 0 0 20px;
+	color: white;
+}
+
+#quick-facts {
+	width: 100%;
+	min-height: 600px;
+	margin: 5px 0 0 0;
+	background-color: #9FB6CD;
+}
+
+#quick-facts ul {
+	margin: 5px 0 0 5px;
+}
+
+#quick-facts li {
+	margin: 5px 0 0 0;
+	color: black;
+	list-style: none;
+}
+
+/*
+Main Content Forms
+*/
+.formGroup {
+	margin: .7em .7em 0 .7em;
+}
+
+.formGroup .form {
+	margin: 0 0 .2em 0;
+}
+
+/*
+ * Main Content, Tables
+*/
+
+#table
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 0px;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+#table th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	background: #c0c0db;
+	border-top: 4px solid #33A1DE;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+#table td
+{
+	padding: 8px;
+	background: #f6f6f9; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+}
+#table tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+}
+
+#table-b
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	background: #fff;
+	margin: 0px;
+	width: 95%;
+	border-collapse: collapse;
+	text-align: left;
+}
+#table-b thead td
+{
+	font-size: 16px;
+	font-weight: 100;
+	border-bottom: none;
+}
+#table-b th
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+#table-b td
+{
+	border-bottom: 1px solid #ccc;
+	color: #669;
+	padding: 6px 8px;
+}
+#table-b tbody tr:hover td
+{
+	color: #009;
+}
+
+#edit {
+	display: none;
+}

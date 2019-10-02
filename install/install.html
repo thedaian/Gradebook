@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	
+<html xmlns="http://www.w3.org/1999/xhtml">
+	
+<head profile="http://gmpg.org/xfn/11">
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>GradeBook Installation</title>
+
+<link rel="stylesheet" href="../styles/master.css" type="text/css" media="screen" />
+</head>
+<body>
+
+<div id="header">
+
+</div>
+
+<div id="content">
+
+<div id="content-header">
+	<h2>Install Gradebook</h2>	
+</div>
+
+<div id="main">
+Welcome to the Gradebook Installation Process.  Be sure a database is set up and created before running this script, otherwise the installation will fail.
+	<div class="formGroup">
+		<fieldset>
+			
+		<legend>Enter Values</legend>
+		
+		<form id="Install" name="Install" action="" method="post">
+		<input type="hidden" name="action" value="install_gradebook" />
+		<div class="row">
+			<span class="label">Database Hostname</span>
+			<span class="formw"><input type="text" name="hostname" value="" size="20" class="form" /></span>
+		</div>
+		
+		<div class="row">
+			<span class="label">Database Username</span>
+			<span class="formw"><input type="text" name="username" value="" size="20" class="form" /></span>
+		</div>
+		
+		<div class="row">
+			<span class="label">Database Password</span>
+			<span class="formw"><input type="password" name="password" value="" size="20" class="form" /></span>
+		</div>
+		
+		<div class="row">
+			<span class="label">Database Name</span>
+			<span class="formw"><input type="text" name="db_name" value="" size="20" class="form" /></span>
+		</div>
+		
+		<div class="row">
+			<span class="formw"><input type="submit" value="Install" /></span>
+		</div>
+		
+		</form>
+		<div id="message2"></div>
+
+		</fieldset>
+	</div>
+</div>
+
+</div>
+</body>
+</html>
+

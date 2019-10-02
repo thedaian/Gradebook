@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	
+<html xmlns="http://www.w3.org/1999/xhtml">
+	
+<head profile="http://gmpg.org/xfn/11">
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>GradeBook!</title>
+		
+		<link rel="stylesheet" href="master.css" type="text/css" media="screen" />
+		
+	</head>
+	
+	
+	
+	<body>
+		
+		<div id="header">
+			
+		
+		<ul>
+		<li><a href="Overview.html">Overview</a></li>
+		<li><a href="Assignments.html">Assignments</a></li>	
+		<li><a href="Students.html">Students</a></li>	
+		<li><a href="Classes.html" class="active">Classes</a></li>	
+		</ul>	
+		
+		</div>
+				
+		<div id="content">
+			
+			<div id="content-header">
+			
+			<h2>Classes</h2>	
+				
+			</div>
+			
+			<div class="formGroup">
+				<fieldset>
+					
+				<legend>Add a Class</legend>
+				
+				<form name="ClassInput" action="SubmitClass.php" method="post">
+
+				<label>Class Number (Inlcuding Section)</label> 
+				<input type="text" name="ClassNumber" value="MECH210-01" size="20" class="form" />
+				<br />
+				<label>Start of Class</label> 
+				<input type="text" name="ClassTime" value="11:00" size="20" class="form" />
+				<input type="radio" name="time" value="AM" class="form" /> AM
+				<input type="radio" name="time" value="PM" class="form" /> PM
+				<br />
+				<input type="submit" value="Submit" />
+
+				</form> 
+				</fieldset>
+			</div>
+						
+		</div>
+		
+		<div id="quick-facts-container">
+			<h1>Quick Facts:</h1>			
+			<div id="quick-facts">
+			
+			<ul>	
+			<li>Students: 75</li>
+			<li>Classes: 3</li>
+			<li>Average Grade: 85%</li>
+			<li>High Grade: 99%</li>
+			<li>Low Grade: 26%</li>
+			<li>Standard Deviation: 5</li>
+			<li>Average Missed Days: 2</li>
+			</ul>
+			
+			</div>
+			
+		</div>
+	</body>
+</html>

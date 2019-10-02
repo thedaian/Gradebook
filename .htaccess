@@ -1,0 +1,15 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^install$	install/index.php [L]
+RewriteRule ^([A-Za-z]*)$	index.php?page=$1 [L]
+RewriteRule ^([A-Za-z]*)/Edit/([0-9]*)$	index.php?page=$1&action=edit&id=$2 [L]
+RewriteRule ^overview$	index.php?action=overview [L]
+RewriteRule ^overview$	index.php?action=overview [L]
+RewriteRule ^move/([0-9])$	index.php?action=move&direction=$1 [L]
+RewriteRule ^town/([A-Za-z]*)/([0-9])$	index.php?action=town&mode=$1&id=$2 [L]
+RewriteRule ^town/([A-Za-z]*)/([0-9])/([A-Za-z]*)$	index.php?action=town&mode=$1&id=$2&dothis=$3 [L]
+
+
+RewriteRule ^run/([A-Za-z]*)/([0-9])$	run.php?action=$1&which=$2 [L]
+RewriteRule ^map/([A-Za-z]*)/([0-9])$	map.php?action=$1&which=$2 [L]

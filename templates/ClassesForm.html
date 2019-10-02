@@ -1,0 +1,46 @@
+<fieldset>
+	
+<legend>[form_action_title] Class</legend>
+
+<form id="ClassInput" name="ClassInput" action="" method="post">
+<input type="hidden" name="action" value="[form_action]_class" />
+<input type="hidden" name="class_id" value="[class_id]" />
+<div class="row">
+	<span class="label">Class Name</span>
+	<span class="formw"><input type="text" name="ClassName" value="[class_name]" size="20" class="form" /></span>
+</div>
+<div class="row">
+	<span class="label">Class Description</span>
+	<span class="formw"><textarea name="ClassDescription" rows="5" cols="50" class="form">[description]</textarea></span>
+</div>
+<div class="row">
+	<span class="label">Class Subject</span>
+	<span class="formw"><select name="ClassSubject" class="form">
+	<option value="">-Select One-</option>
+	[classSubject]
+	</select></span>
+</div>
+<div class="row">
+	<span class="label">Class Number (Including Section)</span>
+	<span class="formw"><input type="text" name="ClassSection" value="[section_id]" size="20" class="form" /></span>
+</div>
+<div class="row">
+<span class="label">Start of Class</span>
+	<span class="formw"><input type="text" name="ClassStartTime" value="[class_start]" size="20" class="form" />
+	<input type="radio" name="stime" value="AM" class="form" /> AM
+	<input type="radio" name="stime" value="PM" class="form" /> PM</span>
+</div>
+<div class="row">
+	<span class="label">End of Class</span> 
+	<span class="formw"><input type="text" name="ClassEndTime" value="[class_end]" size="20" class="form" />
+	<input type="radio" name="etime" value="AM" class="form" /> AM
+	<input type="radio" name="etime" value="PM" class="form" /> PM</span>
+</div>
+<div class="row">
+	<span class="formw"><input type="submit" value="Submit" /></span>
+</div>
+<div class="spacer">
+&nbsp;
+</div>
+</form>
+</fieldset>

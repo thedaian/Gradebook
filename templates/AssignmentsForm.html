@@ -1,0 +1,36 @@
+<fieldset id="assignfield">
+	
+<legend>[form_action_title] Assignment</legend>
+
+<form id="AssignInput" name="AssignInput" action="" method="post">
+<input type="hidden" name="action" id="action" value="[form_action]_assignment" />
+<input type="hidden" name="assignment_id" id="assignment_id" value="[assignment_id]" />
+<div class="row">
+	<span class="label">Class</span>
+	<span class="formw">
+		<select name="classID" id="classID">
+		<option value="">Select Course</option>
+		<option value="1">CS 201-01</option>
+	</select>
+	</span>
+</div>
+<div class="row">
+	<span class="label">Assignment Name</span>
+	<span class="formw"><input type="text" name="AssignName" id="AssignName" value="[name]" size="60" class="form" /></span>
+</div>
+<div class="row">
+	<span class="label">Points</span>
+	<span class="formw"><input type="text" name="AssignAmt" id="AssignAmt" value="[points]" size="5" class="form" /></span>
+</div>
+<div class="row">
+	<span class="label">Weight (Percentage)</span> 
+	<span class="formw"><input type="text" name="AssignWeight" id="AssignWeight" value="[weight]" size="5" class="form" /></span>
+</div>
+<div class="row">
+	<span class="formw"><input type="submit" class="submitButton" value="Submit" /></span>
+</div>
+<div class="spacer">
+&nbsp;
+</div>
+</form>
+</fieldset>
